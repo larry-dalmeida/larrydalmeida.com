@@ -3,7 +3,7 @@ type TagProps = {
   };
   
   export const Tag = ({ title }: TagProps) => (
-    <span className="lowercase text-xs bg-slate-800 rounded-md py-1 px-2">
+    <span className="lowercase text-xs bg-slate-200 dark:bg-slate-800 dark:text-slate-50 rounded-md py-1 px-2">
       {title}
     </span>
   );
