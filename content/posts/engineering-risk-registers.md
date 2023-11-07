@@ -22,4 +22,4 @@ Tracking them when they occur, how often they occur and how they affect your pro
 2. Elevating their importance and need to be addressed to relevant stakeholders.
 3. Enabling the leaders in your organisation to communicate impact measurably and make a strong case for change.
 
-The resulting document where my engineering organisation's pain points are recorded and addressed over time is what I call the Engineering Pain Register.
+The resulting document where an engineering organisation's pain points are recorded and addressed over time is called the Engineering Pain Register.
