@@ -2,11 +2,10 @@
 title: Engineering Pain Register
 description: Tool to identify, track and mitigate technical or organisational bottlenecks, blockers and risks.
 date: "2023-11-08"
+type: Post
 tags:
   - organisation
 ---
-
-https://www.projectmanager.com/blog/guide-using-risk-register
 
 ## Summary 
 
