@@ -1,10 +1,10 @@
 ---
-title: Engineering Pain Register
+title: Pain Register
 description: Tool to identify, track and mitigate technical or organisational bottlenecks, blockers and risks.
 date: "2023-11-08"
 type: Post
 tags:
-  - organisation
+  - engineering management
 ---
 
 ## Summary
@@ -25,7 +25,7 @@ The resulting document where an engineering organisation's pain points are recor
 
 ## What Problem are We Solving and Why?
 
-Unchecked, risks, bottlenecks and blockers can limit the productivity of an engineering team, lead to negative business impact or result in missed deadlines.
+Unchecked risks, bottlenecks and blockers can limit the productivity of an engineering team, lead to negative business impact or result in missed deadlines.
 
 ### Risks
 
