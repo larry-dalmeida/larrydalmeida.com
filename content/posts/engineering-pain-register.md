@@ -54,7 +54,7 @@ Group issues into risks, bottlenecks or blockers via regular assessments, period
 
 ### Assess Potential Impact
 
-- Assess risks on likelihood and severity.
+- Assess risks on **likelihood** and **severity**.
 - Quantify the degree to which a bottleneck impedes progress.
 - Assess cost or consequence of delays caused by blockers.
 
@@ -73,12 +73,12 @@ Group issues into risks, bottlenecks or blockers via regular assessments, period
 
 - Further group issues into Management, Technical or Organisational.
 - Attempt to resolve issues by directly communicating to dependent teams or stakeholders
-- When further progress cannot be made, escalate to leadership to faciliatate resolution.
+- When further progress cannot be made, **escalate** to leadership to faciliatate resolution.
 
 # In Practice
 
-- Proactively record pain points. My team uses a Google Form to quickly record risks as we notice them in our day to day.
-- Setup a recurring Risk Register Meeting. My team meets bi-weekly for 30 minutes to discuss issues in on going initiatives.
+- **Proactively** record pain points. My team uses a Google Form to quickly record risks as we notice them in our day to day.
+- Setup a **recurring** Risk Register Meeting. My team meets bi-weekly for 30 minutes to discuss issues in on going initiatives.
 - Categorise and describe the pain point. Here's an example of a Risk Register.
 - At the end of the meeting you should have a clear list of pain points that need to be monitored, discussed directly with stakeholders, brought to the attention of your organisation's engineering leaders or escalated via Management.
-- At the end of each quarter present your findings and the frequency at which issues recur to your organisations leaders to enable mitigation on a larger scale.
+- At the end of each quarter present your findings and the frequency at which issues recur to your organisation's leaders to enable them to mitigate on a larger scale.
