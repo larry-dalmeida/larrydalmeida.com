@@ -79,6 +79,6 @@ Group issues into risks, bottlenecks or blockers via regular assessments, period
 
 - **Proactively** record pain points. My team uses a Google Form to quickly record risks as we notice them in our day to day.
 - Setup a **recurring** Risk Register Meeting. My team meets bi-weekly for 30 minutes to discuss issues in on going initiatives.
-- Categorise and describe the pain point. Here's an example of a Risk Register.
-- At the end of the meeting you should have a clear list of pain points that need to be monitored, discussed directly with stakeholders, brought to the attention of your organisation's engineering leaders or escalated via Management.
-- At the end of each quarter present your findings and the frequency at which issues recur to your organisation's leaders to enable them to mitigate on a larger scale.
+- **Categorise** and describe the pain point. Here's an example of a Risk Register.
+- At the end of the meeting you should have a clear **list of pain points** that need to be monitored, discussed directly with stakeholders, brought to the attention of your organisation's engineering leaders or escalated via Management.
+- At the end of each quarter present your findings and the frequency at which issues recur to your organisation's leaders to enable them to **mitigate on a larger scale**.
