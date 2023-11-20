@@ -1,10 +1,10 @@
-import Link from "next/link"
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
 import { LOGO_TEXT, META_DESCRIPTION } from "./constants"
+import { HoverLink } from "@/components/link"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -29,8 +29,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <div className="flex items-center justify-between">
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-6">
-                  <Link href="/">Home</Link>
-                  <Link href="/about">About</Link>
+                  <HoverLink href="/">Home</HoverLink>
+                  <HoverLink href="/about">About</HoverLink>
                 </nav>
               </div>
             </header>

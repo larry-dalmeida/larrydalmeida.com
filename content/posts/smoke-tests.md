@@ -29,7 +29,3 @@ Your testing phase may include the following types of tests:
 If your application isn't healthy enough due to a newly introduced bug, example: issue with connecting to database due to invalid databse URL, then a significant amount of time and cost of cloud resources may be spent running integration and UI tests only for them to eventually fail.
 
 Smoke tests are executed as early as possible during this the testing phase, usually after unit tests, to act as a gatekeeper, ensuring that the core functionalities are working as expected before proceeding with more comprehensive tests or deploying to a wider audience.
-
-## Coming Soon
-
-How to setup smoke tests in a CI/CD pipeline.
