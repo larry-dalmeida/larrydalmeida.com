@@ -75,7 +75,7 @@ Group issues into risks, bottlenecks or blockers via regular assessments, period
 - Attempt to resolve issues by directly communicating to dependent teams or stakeholders
 - When further progress cannot be made, **escalate** to leadership to faciliatate resolution.
 
-# In Practice
+## In Practice
 
 - **Proactively** record pain points. My team uses a Google Form to quickly record risks as we notice them in our day to day.
 - Setup a **recurring** Risk Register Meeting. My team meets bi-weekly for 30 minutes to discuss issues in on going initiatives.

@@ -1,5 +1,6 @@
 import { allPosts, Post } from "@/.contentlayer/generated";
 import Link from "@/components/link";
+import PostDate from "@/components/post-date";
 import { Tags } from "@/components/tags";
 
 type RecentPostsProps = {
@@ -15,11 +16,7 @@ const RecentPosts = ({ recentPosts }: RecentPostsProps) => (
           <Link href={post.slug}>
             <h3 className="m-0">{post.title}</h3>
           </Link>
-          <p className="text-sm m-0 font-semibold">
-            {new Date(post.date).toLocaleDateString("en-GB", {
-              dateStyle: "medium",
-            })}
-          </p>
+          <PostDate date={post.date} />
         </header>
         {post.tags && <Tags tags={post.tags} />}
         {post.description && <p className="mt-0">{post.description}</p>}

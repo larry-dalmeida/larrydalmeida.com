@@ -4,6 +4,7 @@ import { allPosts } from "contentlayer/generated"
 import { Metadata } from "next"
 import { Mdx } from "@/components/mdx-components"
 import { Tags } from "@/components/tags"
+import PostDate from "@/components/post-date"
 
 interface PostProps {
   params: {
@@ -53,7 +54,10 @@ export default async function PostPage({ params }: PostProps) {
   return (
     <article className="py-6 prose dark:prose-invert">
       <h1 className="mb-2">{post.title}</h1>
+      <div className="flex justify-between items-center mb-4">
       {post.tags && <Tags tags={post.tags} />}
+      <PostDate date={post.date} />
+      </div>
       {post.description && (
         <p className="text-xl mt-2 text-slate-700 dark:text-slate-200">
           {post.description}
