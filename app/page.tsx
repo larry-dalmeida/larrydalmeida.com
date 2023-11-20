@@ -27,15 +27,15 @@ const RecentPosts = ({ recentPosts }: RecentPostsProps) => (
 
 const Hero = () => (
   <section className="my-16">
-    <h1>Hey! I'm Larry.</h1>
+    <h1>Hey! I&apos;m Larry.</h1>
     <p className="mt-0">Welcome to my little corner of the internet.</p>
     <p>
-      Here I write about things I'm learning, things I'm building and things I'm
-      thinking about. It's mostly for myself, but if you find something useful,
-      that's great too!
+      Here I write about things I&apos;m learning, things I&apos;m building and things I&apos;m
+      thinking about. It&apos;s mostly for myself, but if you find something useful,
+      that&apos;s great too!
     </p>
     <p>
-      If you'd like to say hi you can contact me by email at <a href="mailto:hello@larrydalmeida.com">hello@larrydalmeida.com</a>.
+      If you&apos;d like to say hi you can contact me by email at <a href="mailto:hello@larrydalmeida.com">hello@larrydalmeida.com</a>.
     </p>
   </section>
 );
