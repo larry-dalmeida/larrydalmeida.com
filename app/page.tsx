@@ -35,7 +35,7 @@ const Hero = () => (
       that&apos;s great too!
     </p>
     <p>
-      If you&apos;d like to say hi you can contact me by email at <a href="mailto:hello@larrydalmeida.com">hello@larrydalmeida.com</a>.
+      If you&apos;d like to say hi you can contact me by email at <Link href="mailto:hello@larrydalmeida.com">hello@larrydalmeida.com</Link>.
     </p>
   </section>
 );
