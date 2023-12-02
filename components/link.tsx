@@ -1,8 +1,11 @@
 import NextLink from "next/link";
+import { UrlObject } from 'url';
 
-interface LinkProps {
-  href: string;
-  children: React.ReactNode;
+export type Url = string | UrlObject;
+
+export interface LinkProps {
+  children?: React.ReactNode;
+  href: string | Url;
 }
 
 export default function Link({ href, children }: LinkProps) {
