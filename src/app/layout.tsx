@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 import './globals.css'
 import { LOGO_TEXT, META_DESCRIPTION } from './constants'
 
@@ -26,6 +28,7 @@ export default function RootLayout({
               {children}
             </main>
           </div>
+          <GoogleAnalytics gaId="G-1HRRMXSBWQ" />
       </body>
     </html>
   )
