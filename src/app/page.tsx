@@ -19,7 +19,7 @@ const Hero = () => (
       online fashion retail.
     </p>
     <p>
-      I enjoy listening to spectrum of{" "}
+      I enjoy listening to a spectrum of{" "}
       <a
         href="https://open.spotify.com/playlist/31F0jQTNwQDsc5gDd71q4p?si=345d354962a54f5f"
         target="_blank"
