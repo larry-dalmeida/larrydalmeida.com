@@ -1,0 +1,16 @@
+---
+import { linkStyles } from "../constants";
+
+const getYear = () => new Date().getFullYear().toString();
+---
+
+<footer
+  class="bg-transparent py-4 mx-auto max-w-3xl font-light text-secondary w-[90vw] text-center"
+>
+  <p>
+    Want to raise the bar together? I consult: <a class={linkStyles} href="mailto:hello@larrydalmeida.com">hello@larrydalmeida.com</a>.
+  </p>
+  <small>
+    &copy; {getYear()}
+  </small>
+</footer>

@@ -1,0 +1,93 @@
+---
+import "@fontsource-variable/dm-sans";
+import Footer from "../components/Footer.astro";
+import { linkStyles, title } from "../constants";
+import Header from "../components/Header.astro";
+import Divider from "../components/Divider.astro";
+
+const paragraphStyles = "text-xl my-3";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="description" content="Personal website of Larry D Almeida" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} >
+    <title>{title}</title>
+
+    <script is:inline>
+        if (localStorage.getItem("theme") === null) {
+          document.documentElement.setAttribute("data-theme", "lofi");
+        } else
+          document.documentElement.setAttribute(
+            "data-theme",
+            localStorage.getItem("theme")
+          );
+      </script>
+      <script>
+        import { themeChange } from "theme-change";
+        themeChange();
+      </script>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <Header />
+    <Divider />
+
+    <main
+      class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-3xl overflow-y-scroll pb-2 pt-4 w-[90vw]"
+    >
+      <div class="container">
+        <h3 class="text-3xl my-2">Hello!</h3>
+        <p class={paragraphStyles}>I am a full stack software and site reliability engineer with over a decade of experience.</p>
+        <p class={paragraphStyles}>Adept at building <a class={linkStyles} href="https://en.zalando.de/campaigns/adaptive-fashion/" target="_blank">innovative</a> products for the web in collaboration with a variety of stakeholders, and providing leadership in high-pressure situations.</p>
+        <p class={paragraphStyles}>Known for my problem-solving abilities and dedication to creating performant, psychologically safe teams.</p> 
+        <p class={paragraphStyles}>I enjoy <a class={linkStyles} href="https://open.spotify.com/playlist/31F0jQTNwQDsc5gDd71q4p?si=345d354962a54f5f">music</a>, <a class={linkStyles} href="https://www.imdb.com/user/ur53554285/watchlist/?ref_=ext_shr_lnk">movies</a> and good food.</p>
+        <p class={paragraphStyles}>I value mastery and making a <a class={linkStyles} href="https://en.zalando.de/about-product-standards" target="_blank">meaningful impact</a>.</p>
+      </div>
+    </main>
+
+    <Divider />
+    <Footer class="flex justify-center items-center py-4" />
+  </body>
+</html>
+
+<style is:global>
+    body {
+      font-family: "DM Sans Variable", sans-serif;
+    }
+  
+    @media (min-width: 768px) {
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  
+    .overflow-y-scroll::-webkit-scrollbar {
+      width: 3px;
+    }
+  
+    .overflow-y-scroll::-webkit-scrollbar-thumb {
+      background-color: oklch(var(--s));
+    }
+  
+    .overflow-y-scroll {
+      scrollbar-width: 1px;
+    }
+  
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+  
