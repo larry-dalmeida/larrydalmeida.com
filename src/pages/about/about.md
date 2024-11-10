@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Larry D Almeida"
-designation: "Senior Site Reliability Engineer"
+designation: "Senior Software Engineer"
 location: "Berlin, Germany"
 pronouns: "he/him"
 website: "https://larrydalmeida.com"
